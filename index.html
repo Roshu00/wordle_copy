@@ -8,12 +8,12 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="guess-grid">
-      <div class="tile">T</div>
-      <div class="tile">A</div>
-      <div class="tile">V</div>
-      <div class="tile">A</div>
-      <div class="tile">N</div>
+    <div data-guess-grid class="guess-grid">
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
+      <div class="tile"></div>
       <div class="tile"></div>
       <div class="tile"></div>
       <div class="tile"></div>
@@ -41,8 +41,8 @@
       <div class="tile"></div>
     </div>
     <div class="keyboard">
-      <button class="key wrong-location" data-key="Q">Q</button>
-      <button class="key correct" data-key="W">W</button>
+      <button class="key" data-key="Q">Q</button>
+      <button class="key" data-key="W">W</button>
       <button class="key" data-key="E">E</button>
       <button class="key" data-key="R">R</button>
       <button class="key" data-key="T">T</button>
@@ -52,7 +52,7 @@
       <button class="key" data-key="O">O</button>
       <button class="key" data-key="P">P</button>
       <div class="space"></div>
-      <button class="key wrong" data-key="A">A</button>
+      <button class="key" data-key="A">A</button>
       <button class="key" data-key="S">S</button>
       <button class="key" data-key="D">D</button>
       <button class="key" data-key="F">F</button>
@@ -84,5 +84,6 @@
         </svg>
       </button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
